@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsing Play Button</title>
+    <style>
+        /* Center everything on the page for display purposes */
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #1a1a1a;
+            font-family: sans-serif;
+        }
+
+        /* Container for the thumbnail */
+        .video-container {
+            position: relative;
+            width: 600px;
+            max-width: 90%;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+
+        /* The thumbnail image */
+        .thumbnail {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: filter 0.3s ease;
+        }
+
+        /* Darken the image slightly when hovered */
+        .video-container:hover .thumbnail {
+            filter: brightness(0.7);
+        }
+
+        /* The play button */
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* translate(-50%, -50%) is required to perfectly center absolute elements */
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background-color: #ff0000;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* Apply the grow/shrink animation */
+            animation: pulse 1.5s infinite alternate ease-in-out;
+        }
+
+        /* The white triangle inside the button */
+        .play-button svg {
+            width: 35px;
+            height: 35px;
+            fill: white;
+            /* Nudge the triangle slightly right so it looks optically centered */
+            margin-left: 0px; 
+        }
+
+        /* Hovering over the container pauses the pulse and slightly enlarges the button */
+        .video-container:hover .play-button {
+            animation-play-state: paused;
+            transform: translate(-50%, -50%) scale(1.15);
+            transition: transform 0.3s ease;
+        }
+
+        /* Keyframes for the grow and shrink effect */
+        @keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(0.9);
+                box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1.1);
+                /* The shadow expands and fades out to create a ripple/glow effect */
+                box-shadow: 0 0 0 20px rgba(255, 0, 0, 0); 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <!-- Sample placeholder image -->
+        <img src="hk.jpeg" alt="Video Thumbnail" class="thumbnail">
+        
+        <a href="prism.html" class="play-button">
+            <!-- SVG Play Icon -->
+            <svg viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+            </svg>
+        </a>
+    </div>
+
+</body>
+</html>
