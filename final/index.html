@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="countdown-wrapper">
+        <h1 class="title">Event Starts In</h1>
+        
+        <div class="countdown-container">
+            <!-- Days Slot -->
+            <div class="time-slot">
+                <!-- Use the ID to target this element in your JS -->
+                <span id="days" class="time-value">00</span>
+                <span class="time-label">Days</span>
+            </div>
+            
+            <!-- Hours Slot -->
+            <div class="time-slot">
+                <span id="hours" class="time-value">00</span>
+                <span class="time-label">Hours</span>
+            </div>
+            
+            <!-- Minutes Slot -->
+            <div class="time-slot">
+                <span id="minutes" class="time-value">00</span>
+                <span class="time-label">Minutes</span>
+            </div>
+            
+            <!-- Seconds Slot -->
+            <div class="time-slot">
+                <span id="seconds" class="time-value">00</span>
+                <span class="time-label">Seconds</span>
+            </div>
+        </div>
+    </div>
+<script src="timer.js"></script>
+</body>
+</html>
