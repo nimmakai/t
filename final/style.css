@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #ffffff;
+    font-family: sans-serif;
+    background: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body {
 .countdown-wrapper {
     text-align: center;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(42, 42, 42, 0.05);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -29,6 +29,7 @@ body {
 .title {
     font-size: 2.5rem;
     font-weight: 600;
+    color: #ff0000; /* Highlight color for the title */
     margin-bottom: 2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -39,7 +40,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    flex-wrap: wrap; /* Allows wrapping on very small mobile screens */
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
 }
 
 /* Individual Slots */
@@ -48,7 +50,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 1, 1);
     padding: 1.5rem;
     border-radius: 12px;
     min-width: 120px;
@@ -62,42 +64,52 @@ body {
 
 /* Typography for Numbers and Labels */
 .time-value {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.5rem;
-    color: #4facfe; /* Highlight color for the numbers */
+    color: white; /* Highlight color for the numbers */
     font-variant-numeric: tabular-nums; /* Keeps jumping numbers stable */
 }
 
 .time-label {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #a8b2bc;
+    color: white;
 }
 
-/* Responsive adjustments for mobile */
+/* Responsive adjustments for mobile (Single Line) */
 @media (max-width: 600px) {
+    .countdown-wrapper {
+        padding: 1.5rem .6rem;
+        width: 95%; /* Ensures it doesn't touch screen edges */
+    }
+
     .title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     
     .countdown-container {
-        gap: 1rem;
+        flex-wrap: nowrap; /* Forces elements to stay on one line */
+        gap: 0.5rem; /* Reduces space between slots */
     }
 
     .time-slot {
-        min-width: 100px;
-        padding: 1rem;
+        min-width: 0; /* Removes the 120px minimum */
+        flex: 1; /* Makes all slots share the available width equally */
+        padding: 0.8rem 0.2rem;
     }
 
     .time-value {
-        font-size: 2.5rem;
+        font-size: 3.2rem; /* Scaled down to fit smaller screens */
+        margin-bottom: 0.3rem;
     }
 
     .time-label {
-        font-size: 0.75rem;
+        font-size: 0.55rem;
+        letter-spacing: 0px; /* Removed letter spacing to save width */
     }
 }

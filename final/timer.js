@@ -1,6 +1,6 @@
 // Set the date we're counting down to
 function parseDate() {
-  return new Date(Date.parse("2026-09-22T10:00:00+06:00")).getTime();
+  return new Date(Date.parse("2026-09-22T13:30:00+06:00")).getTime();
 }
 
 var countDownDate = parseDate();
