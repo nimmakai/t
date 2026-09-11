@@ -422,10 +422,14 @@
 	<center>
 
 	<style>
-		.title-setting-row{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
-		.title-setting-row .title{font-size:2.6em;margin:0 8px}
-		.title-setting-row .setting{display:flex;align-items:center;gap:8px}
-		.title-setting-row .setting .mobset{display:inline-block}
+		.title-setting-row{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:nowrap}
+		.title-setting-row .title{font-size:2.6em;margin:0 8px;flex-shrink:0}
+		.title-setting-row .setting{display:flex;align-items:center;gap:8px;flex-shrink:1;min-width:0}
+		.title-setting-row .setting .mobset{display:flex;flex-shrink:1;min-width:0}
+		.title-setting-row .setting .mobset input.bcustom-text{width:100%;min-width:0}
+		@media (max-width: 900px) {
+			.title-setting-row{flex-wrap:wrap}
+		}
 	</style>
 	<div class="title-setting-row">
 		<div class="title">	ফ্রি ফন্ট	</div>
