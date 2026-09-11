@@ -1,0 +1,2382 @@
+body {
+	margin: 0px;
+	background: #e6e7e8; 
+	font-family: AdorNoirrit;
+	text-align: center;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.fontboxcontainer {
+	max-width: 1400px;
+}
+.fontbox {
+	position: relative;
+	background-color: #f1f1f2; 
+	background-image: url("https://lipighor.com/newimg/fontbox.svg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	display: inline-table; 
+	width: 90%; 
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: left;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+	transition: padding 0.5s;
+	min-height: 120px;
+}
+.aboutbox{
+	border-radius: 30px;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+	max-width: 1000px;
+	margin: 30px;
+	background: linear-gradient(100deg, #FFFFFF , #e6e7e8);
+	padding: 40px;
+	font-size: 22px;
+	text-align: justify;
+	color: #404040;
+}
+.aboutbox img{
+	margin: -40px -40px 30px -40px; 
+	width: calc(100% + 80px); 
+	border-radius: 30px 30px 0px 0px;
+}
+
+.fontbox:hover {
+	padding: 22px;
+}
+.fontbox:hover .download{
+	right: 40px;
+}
+.fontbox:hover .preview{
+	color: #be1e2d;
+}
+.fonttitle {
+	font-size: 28px;
+	margin-left: 10px;
+	display: inline-table; 
+}
+.fontsubtitle {
+	font-size: 18px;
+	color: #6d6e70;
+	display: inline-table; 
+	margin-left: 8px;
+}
+.fontdetails {
+	font-size: 18px;
+	color: #6d6e70;
+	display: inline-table; 
+	margin-left: 8px;
+	margin-right: 10px;
+}
+.fontdetails a {
+	font-size: 18px;
+	color: #6d6e70;
+	transition: color 0.5s;
+	text-decoration: none;
+}
+
+.fontdetails:hover a{
+	color: #be1e2d; 
+}
+
+.fontdetails:hover love{
+	color: #be1e2d; 
+}
+
+.preview {
+	font-size: 35px;
+	padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+	transition: color 0.5s;
+	width: 900px;
+}
+love {
+	font-size: 17px;
+	color: #939597;
+	transition: color 0.5s;
+	margin-right: 3px;
+	margin-left: 6px;
+}
+dlbt {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #939597;
+	transition: color 0.5s;
+	margin-right: 3px;
+	margin-left: 6px;
+	margin-top: 2px;
+}
+danda {
+	color: #bbbdc0;
+}
+.dondo {
+	display: inline-table;
+	color: rgb(0, 0, 0, 0.5);
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.download {
+	position: absolute;
+	bottom: 90px;
+	right: 30px;
+	font-family: AdorNoirrit;
+	background: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	margin-bottom: -20px;
+	font-size: 35px;
+	width: 250px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s box-shadow, 0.5s text-shadow, 0.5s right;
+	cursor: pointer;
+}
+.download:hover, .join:hover{
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.9);	
+	text-shadow: 4px 4px 25px rgba(0,0,0,0.9);	
+}
+
+.more {
+	font-family: AdorNoirrit;
+	background: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	margin: 20px;
+	font-size: 40px;
+	width: 300px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s box-shadow, 0.5s text-shadow;
+}
+.more:hover {
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.9);	
+	text-shadow: 4px 4px 25px rgba(0,0,0,0.9);	
+}
+
+.title {
+	background: #be1e2d;
+	background-image: url("https://lipighor.com/newimg/title.svg?ekdumNaya");
+	background-position: left;
+	background-repeat: no-repeat;
+	padding: 18px;
+	padding-right: 40px;
+	border-top-left-radius: 30px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	margin: 10px;
+	font-size: 60px;
+	width: 250px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	text-align: right;
+}
+
+.slide {
+	border-radius: 30px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	display: inline-table;
+	margin: auto;
+	position: relative;
+}
+
+.slidetext {
+	position: absolute;
+	bottom: 0px;
+	padding: 30px;
+	color: #ffffff;
+	font-size: 40px;
+	background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.8));
+	width: 710px;
+	text-align: left;
+	border-radius: 0px 0px 30px 30px;
+}
+.img {
+	border-radius: 30px;
+}
+
+.tshirt {
+	border-radius: 30px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	display: inline-table;
+	width: 300px;
+	margin-left: 40px;
+	position: relative;
+}
+.tshirttext {
+	position: absolute;
+	bottom: 0px;
+	padding: 30px;
+	color: #ffffff;
+	font-size: 40px;
+	background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.8));
+	width: 360px;
+	text-align: left;
+	border-radius: 0px 0px 30px 30px;
+}
+.hr {
+	width: 400px;
+	height: 2px;
+	border: 0px;
+	background: #bbbdc0;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.5);
+	margin-bottom: 25px;
+}
+
+.setting {
+	background: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 10px 20px 10px 12px;
+	border-top-left-radius: 5px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 5px;
+	border: 0px;
+	color: #ffffff;
+	display: inline-table;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+}
+
+.mobset {
+	display: inline-block;
+}
+
+.slider {
+     -webkit-appearance: none;
+     width: 200px;
+     height: 6px;
+     border-radius: 3px;
+     background: rgba(0, 0, 0, 0.3);
+     outline: none;
+     -webkit-transition: .2s;
+}	
+.slider::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 20px;
+     border-radius: 10px;    
+     height: 20px;
+     background: #FFFFFF;
+     cursor: pointer;
+     transition: box-shadow 0.5s;
+}
+.slider::-webkit-slider-thumb:hover {
+     box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.9);
+}
+
+input[type=text] {
+	 font-family: AdorNoirrit;
+	 font-size: 2.5em;
+	 background: rgba(0, 0, 0, 0.3);
+	 border: 0px;
+	 color: #FFFFFF;
+	 width: 550px;
+	 border-top-left-radius: 30px;
+	 border-top-right-radius: 30px;
+	 border-bottom-right-radius: 30px;
+	 border-bottom-left-radius: 30px;
+	 padding: 8px 16px 8px 16px;
+}
+
+::placeholder {
+     color: #FFFFFF;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+.donationBoxBackground {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.donationBoxBackgroundSecondary {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.donationBoxContainer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 360px;
+}
+.donationBox {
+	background-color: #ffffff;
+	border-radius: 20px;
+	overflow: hidden;	
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.4);
+}
+.donationBox .boxHeader {
+	background-image: url("https://lipighor.com/newimg/thbg.svg");
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+.donationBox .mainTitle {
+	font-size: 36px;
+	padding: 12px;
+}
+.donationBox .optionTab {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	padding: 8px 20px;
+	padding-top: 10px;
+	margin: 0 2px;
+	border-radius: 12px 12px 0 0;
+	transition: 0.2s;
+}
+.donationBox .optionTab:hover {
+	background-color: #ffffff;
+	color: #333333;
+}
+.donationBox .activeTab {
+	background-color: #ffffff;
+	color: #333333;
+}
+.donationBox .optionContent {
+	display: none;
+	padding: 10px;
+}
+.donationBox .optionContent .optionLogo {
+	width: 160px;
+	padding: 8px;
+}
+.donationBox .optionContent .qrCode {
+	width: 70%;
+	padding: 12px;
+}
+.donationBox .optionContent .optionDetails {
+	border-radius: 14px;
+	margin: 8px;
+	padding: 18px;
+	color: #ffffff;
+}
+.donationBox .optionContent .optionDetails img {
+	width: 90px;
+	margin: 8px;
+	margin-bottom: 16px;
+}
+.donationBox .accountNoTitle {
+	font-size: 18px;
+}
+.donationBox .accountNo {
+	font-size: 32px;
+}
+.donationBox .accountNoType {
+	font-size: 16px;
+	font-style: italic;
+}
+.donationBox .activeOptionTab {
+	display: block;
+}
+.bkash {
+	background-color: #D12053;
+}
+.nagad {
+	background-color: #f16622;
+}
+.rocket {
+	background-color: #993399;
+}
+.gpay {
+	background-color: rgba(0,0,0,0.2); 
+	color: #000000;
+}
+.donationButtonBackground {
+	background: #d1d2d4cc; 
+	border-radius: 16px; 
+	color: rgba(0,0,0,0.6); 
+	font-size: 18px;
+	margin-bottom: 16px; 
+	padding: 8px;
+}
+.donationButtonBackground .texts {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 110px);
+	margin: 4px;
+}
+.donationButtonBackground .donationButton {
+	display: inline-block;
+	vertical-align: middle;
+	width: 75px;
+	border-radius: 40px;
+	font-size: 19px;
+	color: #ffffff;
+	padding: 8px;
+	background-color: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	margin: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.donationButtonBackground .donationButton:hover {
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+	a {
+	 text-decoration: none;
+	}
+	
+	/* header code start*/
+    .header {
+     padding: 20px;
+    }
+	ul.topnav {
+	 max-width: 1000px;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     padding: 10px;
+    }
+    ul.topnav li {
+     float: right;
+    }
+    ul.topnav li.logo {
+     float: left;
+     display: inline-block;
+    }
+    ul.topnav li a {
+     display: inline-block;
+     color: #ffffff;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     transition: background 0.5s, color 0.5s, padding 0.5s;
+     font-size: 24px;
+	 margin-left: 10px;
+    }
+    ul.topnav li a:hover {
+	 background: rgba(0, 0, 0, 0.2);
+	 border-radius: 30px;
+	 padding: 14px 35px;
+    }
+    .header a.current {
+	 background: #ffffff;
+	 border-radius: 30px;
+	 color: #ff0f11;
+	 padding: 14px 35px;
+    }
+    .activelink {
+	 background: #ffffff;
+	 border-radius: 30px;
+	 display: inline-block;
+     color: #ff0f11;
+     text-align: center;
+     padding: 14px 35px;
+     font-size: 24px;
+    }
+    ul.topnav li.icon {
+     display: none;
+    }
+    @media screen and (max-width:680px) {
+        ul.topnav li:not(:first-child) {
+         display: none;
+        }
+        ul.topnav li.icon {
+         float: right;
+         display: inline-block;
+        }
+    }
+    @media screen and (max-width:680px) {
+        ul.topnav.responsive {
+         position: relative;
+        }
+        ul.topnav.responsive li.icon {
+         position: absolute;
+         right: 0;
+         top: 0;
+        }
+        ul.topnav.responsive li {
+         float: none;
+         display: inline;
+        }
+        ul.topnav.responsive li a {
+         display: block;
+        }
+    }
+    /* header code end*/
+	
+	/* mobile menu code start*/
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background: linear-gradient(85deg, #000000, #333333);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    	box-shadow: 0px 0px 50px #000000;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #CCCCCC;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a.current {
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .sidenav a:hover {
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+	/* mobile menu code end*/
+/* header */
+
+/* top */
+.headcont{
+	background-image: url("https://lipighor.com/newimg/headpicbig.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.welcomebox {
+	background-color: #f1f1f2; 
+	background-image: url("https://lipighor.com/newimg/fontbox.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 30px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	width: 330px;
+	margin-left: 600px;
+	margin-top: 30px;
+	text-align: left;
+	padding:30px;
+}
+.wbhr{
+	border: #bbbdc0 solid 1px;
+	width: 200px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+.countbox {
+	background: linear-gradient(90deg, #c60b0D, #ff0f11);
+	border-radius: 20px;
+	padding: 10px;
+	margin: -10px;
+	margin-top: 8px;
+}
+.countno {
+	font-family: AdorNoirritVR; 
+	font-variation-settings: 'wght' 500; 
+	color: #FFFFFF; 
+	font-size: 40px; 
+	line-height: 60px;
+}
+.vl {
+	border-left: 2px solid #990000;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.prefon {
+	background: #e6e7e8;
+	background-image: url("https://lipighor.com/newimg/prefon.svg?new");
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: left;
+	padding: 28px;
+	padding-left: 180px;
+	width: 360px;
+	margin: 10px;
+	margin-bottom: 0px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	margin-top: 20px;
+	display: inline-table;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.3);
+	transition: 0.5s;
+}
+.prefon:hover {
+	background: #cc0000;
+	background-image: url("https://lipighor.com/newimg/prefonhov.svg?new");
+	background-position: left;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	padding: 33px;
+	padding-left: 190px;
+}
+
+
+.prefon:hover .pftext1 {
+	color: #ffffff;
+}
+
+.prefon:hover .pftext2 {
+	color: #ffffff;
+}
+
+.frefon {
+	background-image: url('https://lipighor.com/newimg/frefon.svg?new');
+}
+.frefon:hover {
+	background-image: url('https://lipighor.com/newimg/frefonhov.svg?new');
+}
+.frmfon {
+	background-image: url('https://lipighor.com/newimg/frmfon.svg');
+}
+.frmfon:hover {
+	background-image: url('https://lipighor.com/newimg/frmfonhov.svg');
+}
+.tshirt {
+	background-image: url('https://lipighor.com/newimg/tshirt.svg?brandnew');
+}
+.tshirt:hover {
+	background-image: url('https://lipighor.com/newimg/tshirthov.svg?new');
+}
+.deshub {
+	background-image: url('https://lipighor.com/newimg/deshub.svg');
+}
+.deshub:hover {
+	background-image: url('https://lipighor.com/newimg/deshubhov.svg');
+}
+.citrolipi {
+	background-image: url('https://lipighor.com/newimg/citrolipi.svg');
+}
+.citrolipi:hover {
+	background-image: url('https://lipighor.com/newimg/citrolipihov.svg');
+}
+.pftext1 {
+	color: #cc0000; 
+	font-size: 50px;
+}
+.pftext2 {
+	color: #404041; 
+	font-size: 22px;
+}
+.ourserv {
+	color: #404040; 
+	font-size: 60px; 
+	text-align: center;
+}
+/* top */
+
+/* page */
+.page {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 20px;
+	border: none;
+	font-size: 30px;
+	font-family: AdorNoirrit;
+	background-color: #a7a9ab;
+	color: #000000;
+	opacity: 0.6;
+	margin: 4px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.pageact {
+	background-color: #C52127;
+	background-image: url("https://lipighor.com/newimg/button.svg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 30px;
+	border: none;
+	font-size: 40px;
+	font-family: AdorNoirrit;
+	color: #FFFFFF;
+	margin: 4px;
+	opacity: 1;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s;
+}	
+
+.nxtbtn {
+	background-color: #C52127;
+	background-image: url("https://lipighor.com/newimg/button.svg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 20px;
+	border: none;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin: 4px;
+	opacity: 1;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s;
+	cursor: pointer;
+}	
+.pageact:hover, .nxtbtn:hover {
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.9);
+	text-shadow: 4px 4px 25px rgba(0,0,0,0.9);	
+}
+
+/* page */
+
+.team {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: #e6e7e8;
+}
+.team:before {
+    position: absolute;
+    z-index: -1;
+  	top: -10px;
+  	right: -10px;
+  	width: 220px;
+    height: 220px;
+    background: linear-gradient(90deg, #ff0000, #be1e2d);
+    border-radius: 100%;
+    content: '';
+}
+.member {
+	transition: 0.5s;
+	background: linear-gradient(90deg, #FFFFFF, #f1f1f2);
+	color: #6d6e70; 
+	width: 200px; 
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.3);
+	position: absolute;
+	bottom: -40px;
+  	right: -10px;
+    z-index: +1;
+}
+.team:hover .member {
+    background: linear-gradient(90deg, #be1e2d, #ff0000);
+    color: #FFFFFF;
+    box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.9);
+   	text-shadow: 4px 4px 25px rgba(0,0,0,0.9);	
+}
+.member hr {
+	width: 50%;
+	border: 1px solid rgb(0,0,0,0.2);
+	margin: 0 0 4px 0;
+}
+.teamcont {
+	display: inline-table;
+	margin: 30px 20px 30px 20px;
+	padding: 10px;
+}
+
+.team .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(0,0,0,0.6);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.team .tooltiptext::after {
+  content: "";
+  position: absolute;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.team:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Preloader start*/
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fill-logo {
+  0%, 100% {
+    transform: translate(0, 100%);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+}
+
+#spinner__brewbox-logo-fill {
+  animation: fill-logo 4s ease-in-out infinite;
+}
+
+
+/* Download page */
+.dlpgbt {
+	position: absolute;
+	bottom: 0px;
+	right: 80px;
+	font-family: AdorNoirrit;
+	background: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	margin-bottom: -20px;
+	font-size: 20px;
+	width: 150px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s box-shadow, 0.5s text-shadow, 0.5s right;
+}
+.dlpgbt:hover {
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.9);	
+	text-shadow: 4px 4px 25px rgba(0,0,0,0.9);	
+}
+.trybox {
+	background: #ffffff;
+	display: inline-table;
+	width: 950px;	
+	border-radius: 20px;
+	padding: 20px;
+	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: left;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+	transition: padding 0.5s, width 0.5s;
+	min-height: 140px;
+}
+.tbhd {
+	background-image: url("https://lipighor.com/newimg/thbg.svg");
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 20px 20px 0px 40px; 
+	margin: -20px; 
+	margin-bottom: 10px;
+	border-radius: 20px 20px 0 0;
+}
+.detailbox {
+	position: relative;
+	background: #f1f1f2; 
+	background-image: url("https://lipighor.com/newimg/fontbox.svg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-table; 
+	width: 260px; 
+	border-radius: 20px;
+	padding: 20px;
+	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: left;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+	transition: padding 0.5s;
+	min-height: 140px;
+}
+.detailbox table {
+	font-size: 19px;
+	color: #6d6e70;
+}
+
+.fdtd2 {
+	width: 30px; 
+	text-align: center;
+	color: #404040;
+}
+.fdtd1 {
+	color: #404040;
+}
+.wbhr{
+	border: #bbbdc0 solid 1px;
+	width: 200px;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+.tryset {
+	padding: 2px;
+	border-bottom: rgb(0,0,0,0.2) solid 1.5px;
+}
+.material-icons {
+	font-size: 22px;
+	color: #6d6e70;
+}
+
+button .material-icons {
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.textarea {
+	width: 100%;
+	resize: none;
+	border: none;
+	font-size: 40px;
+	padding: 12px;
+	margin: 6px;
+	height: 340px;
+    overflow: auto;
+    outline: none;
+	background: none;
+	box-sizing: border-box;
+}
+.textarea2 {
+	width: 100%;
+	resize: none;
+	border: none;
+	border-bottom: rgb(0,0,0,0.2) solid 1.5px;
+	font-size: 40px;
+	padding: 12px;
+	margin: 6px;
+	height: 100px;
+    overflow: auto;
+    outline: none;
+	background: none;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s;
+}
+
+.textarea3 {
+	border-bottom: rgb(0,0,0,0.2) solid 1.5px;
+	height: 100px;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s;
+}
+
+.textarea4 {
+	width: 100%;
+	resize: none;
+	border: none;
+	font-size: 40px;
+	padding: 12px;
+	margin: 6px;
+	height: 100px;
+    overflow: auto;
+    outline: none;
+	background: none;
+	margin-bottom: -20px;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s;
+}
+
+.trybtn {
+	color: #c52328; 
+	background: transparent;
+	border: none;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	transition: 0.5s box-shadow;
+}
+.trybtn .material-icons {
+	color: #fff;
+}
+.trybtnact{
+    background: white;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	transition: 0.5s box-shadow;
+}
+.trybtnact .material-icons {
+	color: #c52328;
+}
+.trybtn:hover {
+    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	border-color: transparent;
+	background-color: #dc282e;
+}
+.trysel {
+	border: solid #bbbdc0 2px; 
+	border-radius: 5px; 
+	font-family: AdorNoirrit; 
+	font-size: 20px; 
+	background: #FFFFFF;
+	padding: 2px; 
+	width: 200px;
+	color: #808284;
+	transition: 0.5s;
+}
+.trysel:hover {
+	border: solid #c52328 2px; 
+	color: #000000;
+}
+.trybold {
+	font-weight: bold;
+}
+
+.tryitalic {
+	font-style: italic;
+}
+
+.tryunderline {
+	text-decoration: underline;
+}
+
+.tryleft {
+	text-align: left;
+}
+.trycenter {
+	text-align: center;
+}
+.tryright {
+	text-align: right;
+}
+.tryblack {
+	background: #231f20;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.tryslid {
+     -webkit-appearance: none;
+     width: 100px;
+     height: 6px;
+     border-radius: 3px;
+     background: rgba(0, 0, 0, 0.1);
+     outline: none;
+     -webkit-transition: .2s;
+}	
+.tryslid::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     appearance: none;
+     width: 20px;
+     border-radius: 10px;    
+     height: 20px;
+     background: linear-gradient(#ff0000,#c52328);
+     cursor: pointer;
+     transition: box-shadow 0.5s;
+}
+.tryslid::-webkit-slider-thumb:hover {
+     box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.5);
+}
+.function {
+	display: inline-table;
+}
+
+.glyph {
+	line-height: 80px; 
+	text-align: center; 
+	width: 80px; 
+	height: 80px; 
+	display: inline-table;
+	font-size: 50px;
+	margin-bottom: 4px;
+	background: rgb(0,0,0,0.05);
+	color: #333333;
+	border-radius: 2px;
+	transition: 0.5s;
+}
+.glyph:hover {
+	color: #ffffff;
+	background: #333333;
+}
+
+.stytex {
+	color: #808284; 
+	font-size: 22px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.morsty {
+	font-size: 20px;
+	color: #58585b;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  margin-top: -22px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 14px 8px 14px;
+  transition: 0.5s;
+  font-size: 20px;
+  font-family: AdorNoirrit;
+  color: #FFFFFF;
+  margin-left: 3px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 0px 0px;
+  padding: 12px 18px 8px 18px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  padding: 12px 18px 8px 18px;
+  color: #404040;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  transition: 0.5s;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+form {
+	display: inline-table;
+}
+/* Downloadpage end*/
+
+
+
+/* Help Related */
+
+.helptitle {
+	background: linear-gradient(80deg, #CC0000, #EE0000); 
+	padding: 10px 20px; 
+	font-size: 30px; 
+	color: #FFFFFF; 
+	width: 80%;
+	max-width: 1000px; 
+	margin: 20px auto; 
+	border-radius: 20px;
+}
+
+.helpbox{
+	border-radius: 20px;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+	max-width: 1000px;
+	margin: 0 20px 15px 20px;
+	background: linear-gradient(100deg, #FFFFFF , #EEEEEE);
+	padding: 20px;
+	font-size: 22px;
+	text-align: justify;
+	color: #404040;
+	transition: 0.5s;
+}
+
+.helpbox:hover {
+	cursor: pointer;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.4);
+}
+.helpbox img {
+	border-radius: 20px 0 0 20px;
+	margin: -20px 0 -20px -20px;
+	width: 250px;
+	display: inline-block; 
+	vertical-align: middle;
+	border-right: 3px #CC0000 solid;
+}
+
+.helpbox .helpcont {
+	display: inline-block; 
+	vertical-align: middle; 
+	margin-left: 30px; 
+	width: 700px;
+}
+
+.helpbox .helpname {
+	font-size: 40px;
+	text-align: left;
+}
+
+
+.faqback {
+	background: rgb(0,0,0,0.05); 
+	padding: 15px 0px 10px 0; 
+	font-size: 30px; 
+	color: #666666; 
+	width: 90%;
+	max-width: 1000px; 
+	margin: 20px auto; 
+	border-radius: 15px;
+}
+
+.faqback .faq {
+	border-radius: 10px;
+	background: rgb(255, 255, 255, 0.8);
+	font-size: 25px;
+	width: 230px;
+	display: inline-block;
+	margin: 8px 3px;
+	transition: 0.5s;
+}
+
+.faqback .faq img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 2px #CC0000 solid;
+}
+
+.faqback .faqtitle {
+	padding: 10px 15px;
+	color: #555555; 
+}
+
+.faqback .faq:hover {
+	cursor: pointer;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+}
+
+.faqback hr {
+	margin: 10px auto;
+	width: 50%;
+	max-width: 300px;
+	border: 1px solid #666666;
+}
+
+.ytvideo {
+	width: 360px; 
+	height: 240px; 
+	border-radius: 15px; 
+	outline: 0; border: 0;
+	margin: 4px;
+}
+
+/* Help End*/
+
+
+/* Recent Use */
+
+.imggall {
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.imggall .img {
+	display: inline-block;
+	width: 175px;
+	height: 175px;
+	overflow: hidden;
+	background: #000000;
+	margin: 2px;
+	border-radius: 15px;
+}
+
+.imggall img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+	cursor: pointer;
+	transform: scale(1);
+}
+
+.imggall img:hover {
+	transform: scale(1.2);
+	opacity: 0.5;
+}
+
+
+.modal {
+	z-index: 9999;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0,0.8);
+	animation: fadeEffect 0.5s;
+}
+
+.modal img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 80%;
+	max-width: 90%;
+}
+
+.modal .close {
+	color: #FFFFFF;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-size: 30px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.modal .close:hover {
+	color: #CC0000;
+}
+
+.modal .mySlides {
+	display: none;
+}
+
+.modal .prev, .modal .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	color: #FFFFFF;
+	font-size: 30px;
+	transition: 0.5s;
+	text-align: center;
+	background: rgb(0,0,0,0.4);
+	padding: 10px 25px;
+	border-radius: 0 50px 50px 0;
+}
+
+.exit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.1;
+}
+
+.modal .next {
+	right: 0;
+	border-radius: 50px 0 0 50px;
+}
+
+.modal .prev:hover, .modal .next:hover {
+	background: #CC0000;
+}
+
+.modal .numbertext {
+	color: #FFFFFF;
+	font-size: 22px;
+	padding: 10px 15px;
+	position: absolute;
+	top: 0;
+}
+
+.norecentuse {
+	text-align: center; 
+	padding: 100px 40px; 
+	font-size: 30px;
+}
+
+
+/* Recent Use End */
+
+
+.designerDownloadCont {
+	background: linear-gradient(45deg, #BB0000, #EE0000); 
+	width: 156px;
+	height: 156px;
+	border-radius: 100px;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.designerDownload {
+	width: 130px;
+	border-radius: 100px;
+	display: block;
+	border: solid 5px #E6E7E8;
+}
+
+
+
+
+
+
+/* Preloader end */
+@media only screen and (max-width: 1500px) {
+	.headcont{
+		background-image: url("https://lipighor.com/newimg/headpic.svg");
+	}
+}
+
+
+
+
+
+/*Fanclub Assets Start*/
+.fanclub {
+	background: linear-gradient(95deg, #FFFFFF, #DDDDDD); 
+	border-radius: 30px; 
+	max-width: 1040px; 
+	margin: 20px 20px 10px 20px; 
+	padding: 30px 60px; 
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.3);
+	text-align: center ;
+	transition: 0.6s;
+}
+.fanclub:hover {
+	padding: 38px 68px;
+}
+.fanclub img {
+	display: inline-block; 
+	vertical-align: middle; 
+	width: 350px;
+}
+.fanclub hr {
+	width: 70%;
+	max-width: 1000px;
+	border: 1px solid rgb(0,0,0, 0.2);
+	margin: 20px auto;
+}
+.fanclub .join {
+	font-family: AdorNoirrit;
+	background: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	font-size: 23px;
+	width: 150px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s box-shadow, 0.5s text-shadow, 0.5s right;
+	cursor: pointer;
+}
+
+.fanclub .fcfeature{
+	display: inline-block; 
+	vertical-align: middle; 
+	border-left: solid 2px #CCCCCC; 
+	padding-left: 40px; 
+	margin-left: 20px; 
+	width: 400px;
+	color: #DD0000;
+	text-align: left;
+}
+
+.fanclub ul{
+	padding: 0 0 0 15px;
+	margin: 0;
+	font-size: 22px;
+}
+
+.fanclub li{
+	margin: 4px;
+	padding: 0;
+}
+
+.fcftitle {
+	color: #555555;
+	font-size: 35px; 
+}
+
+.fanclub .joining {
+	display: inline-block; 
+	vertical-align: middle; 
+	width: 200px; 
+	text-align: center;
+}
+
+.jointitle {
+	font-size: 22px; 
+	color: #444444;
+}
+/*Fanclub Assets End*/
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+	.fontbox {
+		width: 280px;
+		padding: 20px;
+	}
+	.fontbox:hover {
+		padding: 20px;
+	}
+	.fontdetails {
+		font-size: 15px; 
+		margin-left: 4px;
+		padding-bottom: 8px;
+	}
+	.download {
+		right: 85px;
+	}
+	.fontbox:hover .download{
+		right: 85px;
+	}
+	love {
+		font-size: 10px;
+	}
+	dlbt {
+		font-size: 10px;
+	}
+	.fontdetails a {
+		font-size: 15px;
+		color: #6d6e70;
+		transition: color 0.5s;
+		text-decoration: none;
+	}
+	.title { 
+		width: 80%;
+		font-size: 42px;
+		padding: 15px;
+		padding-right: 30px;
+	}
+	.hr {
+		width: 60%;
+	}
+	.more {
+		font-size: 30px;
+		width: 200px;
+	}
+	.setting {
+		padding: 16px;
+		border-radius: 0px;
+		position: sticky;
+		top: 0;
+		z-index: +1;
+	}
+	.mobset {
+		margin-bottom: 12px;
+	}
+	.dondo {
+		visibility: hidden;
+	}
+	.welcomebox {
+		margin-left: 0px;
+		margin-top: 0px;
+		width: 260px;
+	}
+
+	.headcont{
+		background-image: url("https://lipighor.com/newimg/headpicmob.svg");
+	}
+	.countno {
+		color: #FFFFFF; 
+		font-size: 32px; 
+		line-height: 50px;
+	}
+	.vl {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
+	.prefon {
+		width: 180px;
+		padding: 18px;
+		padding-left: 130px;
+	}
+
+	.pftext1 { 
+		font-size: 30px;
+	}
+	.pftext2 {
+		font-size: 16px;
+	}
+	.ourserv {
+		font-size: 45px; 
+
+	}
+	.prefon:hover {
+		padding: 18px;
+		padding-left: 130px;
+	}
+
+	.aboutbox {
+		padding: 30px;
+		font-size: 20px;
+	}
+	.aboutbox img {
+		margin: -30px -30px 20px -30px;
+		width: calc(100% + 60px);
+		height: 120px;
+		object-fit:cover;
+	}
+	.trybox {
+		display: block;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    width: 90%;
+	    padding: 0px;
+	    padding-bottom: 10px;
+	}
+	.tryset {
+		padding-top: 16px;
+	}
+	.tbhd {
+		margin: 0px;
+		padding: 20px 20px 0px 30px; 
+	}
+
+	.stytex {
+		padding-left: -20px;
+	}
+	.glyph {
+		line-height: 70px; 
+		width: 70px; 
+		height: 70px; 
+		font-size: 40px;
+	}
+	.tab {
+	  margin-top: 5px;
+	}
+
+	.tab button {
+		font-size: 19px;
+	}
+
+	.tab button:hover {
+	  padding: 12px 16px 8px 16px;
+	}
+
+	/* Create an active/current tablink class */
+	.tab button.active {
+	  padding: 12px 16px 8px 16px;
+	}
+
+
+
+	/*Fanclub Assets Start*/
+	.fanclub {
+		width: 280px;
+		padding: 10px 20px 20px 20px;
+		margin-bottom: 30px;
+	}
+
+	.fanclub:hover {
+		padding: 10px 20px 20px 20px;
+	}
+	.fanclub img {
+		width: 250px;
+	}
+
+	.fanclub .fcfeature{
+		display: block; 
+		border-left: none; 
+		padding-left: 0px; 
+		margin-left: 0px;
+		padding: 0 20px; 
+		width: 100%;
+		color: #DD0000;
+		text-align: left;
+	}
+
+	.fcftitle {
+		font-size: 26px;
+	}
+
+	.fanclub ul{
+		font-size: 19px;
+	}
+	.fanclub hr {
+		display: none;
+	}
+
+	.fanclub .joining {
+		width: 240px;
+	}
+
+	.fanclub .join {
+		font-size: 20px;
+		margin-bottom: -50px;
+	}
+
+	.jointitle {
+		font-size: 19px; 
+		padding: 15px;
+	}
+	/*Fanclub Assets End*/
+	.helpbox {
+		font-size: 18px;
+	}
+	.helpbox .helpname {
+		font-size: 30px;
+	}
+
+	.helpbox img {
+		margin: -20px -20px 0px -20px;
+		width: calc(100% + 40px);
+		border-radius: 20px 20px 0 0;
+		border-right: 0;
+		border-bottom: 3px #CC0000 solid;
+	}
+
+	.helpbox .helpcont {
+		margin: 0;
+		width: calc(100% - 20px);
+		padding: 20px 10px 10px 10px;
+	}
+
+	.faqback .faq {
+		width: 90%;
+	} 
+
+	.ytvideo {
+		width: 90%;
+		max-width: 360px; 
+		height: 240px; 
+	}
+
+
+
+	.imggall .img {
+		width: 140px;
+		height: 140px;
+	}
+
+	.modal .prev, .modal .next {
+		margin-top: -32px;
+		font-size: 24px;
+		padding: 6px 22px;
+	}
+
+	.modal .next {
+		right: 0;
+		border-radius: 50px 0 0 50px;
+	}
+
+}
+
+
+
+
+/* Download Page Notice */
+
+.agreecont {
+	 display: inline-block;  
+	 vertical-align: middle;
+	 padding: 10px 3px;
+	 color: #666666;
+}
+
+.agree {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.agree input {
+	z-index: -1;
+	display: none;
+}
+
+.agreebox {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 6px;
+	border: 2px solid #999999;
+	transition: .5s;
+}
+
+.agree:hover input ~ .agreebox {
+	background: #CCCCCC;
+}
+
+.agree input:checked ~ .agreebox {
+	background: #EE0000;
+	border: #EE0000 2px solid;
+}
+
+.offbutton {
+	background: #666666;
+	font-family: AdorNoirrit;
+	padding: 10px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	font-size: 20px;
+	width: 150px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s;
+	pointer-events: none;
+}
+
+.button {
+	font-family: AdorNoirrit;
+	background: #C52127;
+	background-image: url("https://lipighor.com/newimg/download.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	border-radius: 30px;
+	border: 0px;
+	color: #ffffff;
+	font-size: 20px;
+	width: 150px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.4);
+	transition: 0.5s;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.downloadnotice {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 0px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  z-index: 9999;
+}
+
+.noticecontent {
+	background-color: #f1f1f2;
+	background-image: url("https://lipighor.com/newimg/fontbox.svg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: auto;
+	position: absolute; 
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	border: 1px solid #888;
+	width: 75%;
+	max-width: 600px;
+	border-radius: 20px;
+	font-size: 22px;
+	box-shadow: 4px 4px 25px 0px rgba(0,0,0,0.5);
+}
+
+.noticetitle {
+	background-image: url("https://lipighor.com/newimg/thbg.svg");
+	background-position: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 20px 20px 10px 20px; 
+	font-size: 40px;
+	color: #FFFFFF;
+	margin: -31px -31px 25px -31px; 
+	border-radius: 20px 20px 0 0;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+	.noticecontent {	
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.noticecontent {	
+		font-size: 20px;
+	}
+
+	.noticetitle {
+		font-size: 35px;
+		padding: 15px 15px 5px 15px; 
+	}
+}
+
+/* Download Page Notice End */
+
+
+
+
+
+.designerSupportBox {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 19px; 
+	margin: 4px 0 18px 0;
+}
+.designerSupportBox .profilePicture {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	border-radius: 60px;
+	overflow: hidden;
+	background: linear-gradient(45deg, #BB0000, #EE0000); 
+	padding: 5px;
+	margin: 6px;
+}
+.designerSupportBox .profilePicture img {
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	border-radius: 60px;
+	border: solid 4px #ffffff;
+}
+.designerSupportBox .socialDetails {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: calc(100% - 132px);
+	margin: 6px 12px;
+}
+.designerSupportBox .socialDetails .texts {
+	font-size: 20px;
+	margin: 2px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.designerSupportBox .socialDetails .name {
+	font-size: 26px;
+	margin: 2px;
+}
+.designerSupportBox .socialDetails .socialLinks {
+	margin-top: 8px;
+}
+.designerSupportBox .socialDetails .social {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 2px;
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2);
+	transition: 0.6s;
+}
+.designerSupportBox .socialDetails .social:hover {
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+}
+.fb {
+	background: #3B5998;
+}
+.tt {
+	background: #1DA1F2;
+}
+.yt {
+	background: #FF0000;
+}
+
+.be {
+	background: #053EFF;
+}
+
+.ig {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+}
+
+.li {
+	background: #0e76a8;
+}
+
+.db {
+	background: #ea4c89;
+}
+button .material-icons {
+	font-size: 18px;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 900px) {
+	.designerSupportBox .socialDetails .name {
+		font-size: 22px;
+	}
+	.designerSupportBox .socialDetails {
+		margin: 6px;
+		max-width: calc(100% - 12px);
+	}
+	.designerSupportBox .socialDetails .texts {
+		font-size: 18px;
+	}
+
+	.noticecontent {
+		font-size: 18px;
+	}
+
+}
+
+
+
+
+.othersFont {
+	background: #C52127;
+    background-image: url("https://lipighor.com/newimg/thbg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1000px;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 22px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    display: block;
+ 	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.5);
+    transition: 0.2s;
+}
+
+.othersFont:hover {
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.5);
+}
+.othersFont span {
+	opacity: 0.8;
+}
+@media only screen and (max-width: 900px) {
+	.othersFont {
+		margin: 10px 20px;
+		font-size: 20px;
+	}
+}
+
+
+.designerdetail .aboutdesigner {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(75% - 34px);
+}
+.designerdetail .disgnerstatics {
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+}
+.designerdetail .lombaDivider {
+	display: inline-block;
+	vertical-align: middle;
+	width: 2px;
+	height: 120px;
+	margin-left: 25px;
+	background-color: rgba(0,0,0,0.2);
+}
+.designerdetail .redcount {
+	color: #CC0000;
+	font-size: 35px
+}
+.designerdetail .disgnerstatics hr {
+	width: 60%;
+	margin: 15px auto;
+	border: 0;
+	height: 2px;
+	background-color: rgba(0,0,0,0.2);
+}
+@media only screen and (max-width: 900px) {
+	.redcountCont {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.designerdetail .aboutdesigner {
+		width: 100%;
+	}
+	.designerdetail .lombaDivider {
+		display: block;
+		width: 80%;
+		height: 2px;
+		margin: 25px auto;
+	}
+	.designerdetail .disgnerstatics hr {
+		display: inline-block;
+		vertical-align: middle;
+		width: 2px;
+		height: 40px;
+		margin: 0 15px;
+	}
+	.designerdetail .disgnerstatics {
+		width: 100%;
+	}
+	.teammember {
+	position: relative;
+	background: #f1f1f2; 
+	background-image: url("https://lipighor.com/newimg/fontbox.svg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #606060;
+	border-radius: 20px;
+	padding: 115px 30px 20px 30px;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 4px 4px 30px 0px rgba(0,0,0,0.2);
+	transition: padding 0.5s;
+	width: 340px;
+	margin-top: -100px;
+	font-size: 20px;
+}
+
+.teammember hr {
+	text-align: center;
+	width: 50%;
+	border: 1px solid rgb(0,0,0,0.2);
+	margin: none;
+}
+
+.social {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 16px 2px 2px 2px;
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2);
+	transition: 0.6s;
+}
+
+.social:hover {
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+}
+
+.fb {
+	background: #3B5998;
+}
+.tt {
+	background: #1DA1F2;
+}
+.yt {
+	background: #FF0000;
+}
+
+.be {
+	background: #053EFF;
+}
+
+.ig {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+}
+
+.li {
+	background: #0e76a8;
+}
+
+.gh {
+	background: #211f1f;
+}
+
+.sl {
+	background: #4a154b;
+}
+
+.db {
+	background: #ea4c89;
+}
+
+.memberimgcon {
+	background: linear-gradient(45deg, #BB0000, #EE0000); padding: 10px; border-radius: 100%;  display: inline-block; position: relative; z-index: +2
+}
+
+.memberimg {
+	width: 170px; border-radius: 100%; border: solid 6px #E6E7E8;
+}
+
+.membername {
+	font-size: 35px; 
+	color: #404040;
+	transition: 0.6s;
+}
+
+.teamcontainer {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.teamcontainer:hover img {
+	width: 180px;
+}
+
+.teamcontainer:hover .membername {
+	font-size: 40px; 
+	color: #CC0000;
+}
+
+.teamcontainer:hover .teammember {
+	padding: 120px 38px 28px 38px;
+}
+.resultType {
+	color: #FFFFFF;
+	background: #CC0000;
+	border-radius: 30px;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	display: inline-block;
+}
+
+.resultType2 {
+	color: #FFFFFF;
+	background: #333333;
+	border-radius: 30px;
+	padding: 8px 30px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.teamcontainer:hover .download {
+	right: 108px;
+}
+
+.teamcontainer .download {
+	width: 200px;
+	font-size: 22px;
+	right: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+	.teammember {
+		width: 260px;
+	}
+
+	.teamcontainer:hover .teammember {
+		padding: 115px 30px 20px 30px;
+	}
+
+	.mhide {
+		display: none;
+	}
+	.teamcontainer .download {
+		right: 60px;
+	}
+	.teamcontainer:hover .download {
+		right: 60px;
+	}
+}
+
+
+}

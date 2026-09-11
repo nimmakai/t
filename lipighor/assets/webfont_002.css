@@ -1,0 +1,1222 @@
+  @font-face {
+    font-family: 'NiladriRussian';
+    src: url('https://lipighor.com/webfont/russian.woff2?V=2.0') format('woff2'), 
+        url('https://lipighor.com/webfont/russian.woff?V=2.0') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Light';
+    src: url('https://lipighor.com/webfont/Light.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'NiladriNodia';
+    src: url('https://lipighor.com/webfont/nodia.woff2?V=2.0') format('woff2'), 
+        url('https://lipighor.com/webfont/nodia.woff?V=2.0') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Kalpurush';
+    src: url('https://lipighor.com/webfont/kalpurush.woff2') format('woff2'),
+    url('https://lipighor.com/webfont/kalpurush.woff') format('woff');
+  }
+
+  @font-face {
+  font-family: 'AdorNoakhali';
+  src: url('https://lipighor.com/webfont/noakhali2.woff2?V=2.0') format('woff2'),
+  url('https://lipighor.com/webfont/noakhali2.woff?V=2.0') format('woff');
+  }
+
+  @font-face {
+  font-family: 'NiladriMoitree';
+  src: url('https://lipighor.com/webfont/moitree.woff2?V=2.0') format('woff2'), 
+  url('https://lipighor.com/webfont/moitree.woff?V=2.0') format('woff');
+  }
+
+  @font-face {
+  font-family: 'Kalpurush';
+  src:   url('https://lipighor.com/webfont/kalpurush.ttf') format('truetype');
+  }
+ 
+  @font-face {
+  font-family: 'AdorBaksho';
+  src: url('https://lipighor.com/webfont/baksho.woff2') format('woff2'), url('https://lipighor.com/webfont/baksho.woff') format('woff');
+  }
+  
+  @font-face {
+  font-family: 'AdorBakshoOutline';
+  src: url('https://lipighor.com/webfont/bakshoutline.woff2') format('woff2'), url('https://lipighor.com/webfont/bakshoutline.woff') format('woff');
+  }
+    @font-face {
+  font-family: 'AdorIspat';
+  src: url('https://lipighor.com/webfont/ispat2.woff2?V=2.0') format('woff2'),
+  	   url('https://lipighor.com/webfont/ispat2.woff?V=2.0') format('woff');
+  }
+    @font-face {
+    font-family: 'ShorifMitali';
+    src: url('https://lipighor.com/webfont/mitalir.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/mitalir.woff') format('woff');
+  }
+    @font-face {
+    font-family: 'ShorifChoyon';
+    src: url('https://lipighor.com/webfont/choyon.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/choyon.woff') format('woff');
+  }
+    @font-face {
+    font-family: 'ShorifJonota';
+    src: url('https://lipighor.com/webfont/jonota.woff2?new') format('woff2'),
+        url('https://lipighor.com/webfont/jonota.woff?new') format('woff');
+  }
+        @font-face {
+    font-family: 'Upohar';
+    src: url('https://lipighor.com/webfont/upohar2.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/upohar2.woff?V=2.0') format('woff');
+  }
+
+        @font-face {
+    font-family: 'ShorifSandwip';
+    src: url('https://lipighor.com/webfont/sandwip.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/sandwip.woff') format('woff');
+  }
+
+        @font-face {
+    font-family: 'NiladriRatna';
+    src: url('https://lipighor.com/webfont/ratna.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ratna.woff') format('woff');
+  }
+
+        @font-face {
+    font-family: 'MayabiRRR';
+    src: url('https://lipighor.com/webfont/mayabi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/mayabi.woff?V=2.0') format('woff');
+  }
+
+          @font-face {
+    font-family: 'RasselUday';
+    src: url('https://lipighor.com/webfont/uday.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/uday.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'AdorIspat';
+    src: url('https://lipighor.com/webfont/ispat.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ispat.woff?V=2.0') format('woff');
+  }
+
+        @font-face {
+    font-family: 'SubhaSwarnaBold';
+    src: url('https://lipighor.com/webfont/swarna2.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/swarna2.woff?V=2.0') format('woff');
+  }
+  
+        @font-face {
+    font-family: 'AlinurBongobondhu';
+    src: url('https://lipighor.com/webfont/Bongobondhu.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/Bongobondhu.woff?V=2.1') format('woff');
+  }
+
+           @font-face {
+    font-family: 'AdorShodesh';
+    src: url('https://lipighor.com/webfont/swadesh2.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/swadesh2.woff?V=2.0') format('woff');
+  }
+    @font-face {
+    font-family: 'HarappaLipiBold';
+    src: url('https://lipighor.com/webfont/marappa.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/marappa.woff?V=2.0') format('woff');
+  }
+    @font-face {
+    font-family: 'Aayat56';
+    src: url('https://lipighor.com/webfont/aayat2.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/aayat2.woff?V=2.0') format('woff');
+  }
+ 	@font-face {
+    font-family: 'SubhaTypwriter';
+    src: url('https://lipighor.com/webfont/typewriter.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/typewriter.woff?V=2.0') format('woff');
+  }
+  	@font-face {
+    font-family: 'BorshonRRR';
+    src: url('https://lipighor.com/webfont/borshonRRR.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/borshonRRR.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'ShobujNolua';
+    src: url('https://lipighor.com/webfont/nolua.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/nolua.woff?V=2.1') format('woff');
+  }
+   @font-face {
+    font-family: 'TohaBorno';
+    src: url('https://lipighor.com/webfont/toha.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/toha.woff?V=2.0') format('woff');
+  }
+
+   @font-face {
+    font-family: 'AzadPori';
+    src: url('https://lipighor.com/webfont/pori.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/pori.woff?V=2.0') format('woff');
+  }
+     @font-face {
+    font-family: 'cholontika';
+    src: url('https://lipighor.com/webfont/xolontika.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/xolontika.woff?V=2.0') format('woff');
+  }
+   @font-face {
+    font-family: 'Mamon';
+    src: url('https://lipighor.com/webfont/mamon2.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/mamon2.woff?V=2.0') format('woff');
+  } 
+
+   @font-face {
+    font-family: 'ShamimChitranee';
+    src: url('https://lipighor.com/webfont/chitranee.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/chitranee.woff??V=2.1') format('woff');
+  }
+
+   @font-face {
+    font-family: 'Shakib75';
+    src: url('https://lipighor.com/webfont/shakib.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/shakib.woff?V=2.1') format('woff');
+  }  
+  @font-face {
+    font-family: 'SirajeeSheikh';
+    src: url('https://lipighor.com/webfont/sheikh.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/sheikh.woff?V=2.1') format('woff');
+  }  
+  @font-face {
+    font-family: 'ShamimNoor';
+    src: url('https://lipighor.com/webfont/noor.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/noor.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'ShobujBorno';
+    src: url('https://lipighor.com/webfont/borno.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/borno.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'SirajeeManha';
+    src: url('https://lipighor.com/webfont/manha.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/manha.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'AlinurEkush';
+    src: url('https://lipighor.com/webfont/ekush.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ekush.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'SabojCharulota';
+    src: url('https://lipighor.com/webfont/charulota2.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/charulota2.woff?V=2.1') format('woff');
+  }
+  @font-face {
+    font-family: 'SubhaSondhya';
+    src: url('https://lipighor.com/webfont/sandhya.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/sandhya.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'HasanRongdhonu';
+    src: url('https://lipighor.com/webfont/rongdhonu.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/rongdhonu.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'KongkaBorno';
+    src: url('https://lipighor.com/webfont/kongka.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/kongka.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'NiladriHalhed';
+    src: url('https://lipighor.com/webfont/halhed.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/halhed.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'BijoySwapnochura';
+    src: url('https://lipighor.com/webfont/swapnochura.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/swapnochura.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'SubhaShantiniketan';
+    src: url('https://lipighor.com/webfont/shantiniketan.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/shantiniketan.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'Vivekananda';
+    src: url('https://lipighor.com/webfont/vivekananda.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/vivekananda.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'AdorShurobhi';
+    src: url('https://lipighor.com/webfont/shurobhi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/shurobhi.woff?V=2.0') format('woff');
+  }
+
+  @font-face {
+    font-family: 'NiladriNobanno';
+    src: url('https://lipighor.com/webfont/nobanno.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/nobanno.woff?V=2.0') format('woff');
+  }
+  @font-face {
+    font-family: 'NishaShwakkhor';
+    src: url('https://lipighor.com/webfont/shwakkhor.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/shwakkhor.woff?V=2.0') format('woff');
+  }
+@font-face {
+	font-family: 'ShohidRafiq';
+	src: url('https://lipighor.com/webfont/rafiq.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/rafiq.woff?V=2.0') format('woff');
+}
+@font-face {
+	font-family: 'ShohidBarkat';
+	src: url('https://lipighor.com/webfont/barkat.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/barkat.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ShohidShafiur';
+  src: url('https://lipighor.com/webfont/shafiur.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/shafiur.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ShohidJabbar';
+  src: url('https://lipighor.com/webfont/jabbar.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/jabbar.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Saboj52';
+  src: url('https://lipighor.com/webfont/52.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/52.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ShohidSalam';
+  src: url('https://lipighor.com/webfont/salam.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/salam.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SirajeeMonira';
+  src: url('https://lipighor.com/webfont/monira.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/monira.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MahfujAK';
+  src: url('https://lipighor.com/webfont/ak.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ak.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurKrishnochura';
+  src: url('https://lipighor.com/webfont/krishnochura.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/krishnochura.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'LiakotEkota';
+  src: url('https://lipighor.com/webfont/ekota.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ekota.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'KhalidMadaripur';
+  src: url('https://lipighor.com/webfont/madaripur.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/madaripur.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKJalalabad';
+  src: url('https://lipighor.com/webfont/jalalabad.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/jalalabad.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurNilabhro';
+  src: url('https://lipighor.com/webfont/nilabhro.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/nilabhro.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SabojToru';
+  src: url('https://lipighor.com/webfont/toru.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/toru.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HalderTathagata';
+  src: url('https://lipighor.com/webfont/HalTathagata.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HalTathagata.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'DhakaiyaRRR';
+  src: url('https://lipighor.com/webfont/dhakaiya.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/dhakaiya.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SirajeeAlima';
+  src: url('https://lipighor.com/webfont/alima.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/alima.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SonarKella';
+  src: url('https://lipighor.com/webfont/kella.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/kella.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSanghoti';
+  src: url('https://lipighor.com/webfont/sanghoti.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/sanghoti.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanMeghaloy';
+  src: url('https://lipighor.com/webfont/meghaloy2.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/meghaloy2.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'NiladriNur';
+  src: url('https://lipighor.com/webfont/NiladriNur.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/NiladriNur.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'NiladriRongtuli';
+  src: url('https://lipighor.com/webfont/rongtuli.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/rongtuli.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Titir';
+  src: url('https://lipighor.com/webfont/titir.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/titir.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ZahirRayhan';
+  src: url('https://lipighor.com/webfont/zahir.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/zahir.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBornangon';
+  src: url('https://lipighor.com/webfont/bornangon.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/bornangon.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanMunam';
+  src: url('https://lipighor.com/webfont/munam.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/munam.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'BijoyIrsha';
+  src: url('https://lipighor.com/webfont/Irsha.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Irsha.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HalderShyamoli';
+  src: url('https://lipighor.com/webfont/Shyamoli.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Shyamoli.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurPrayas';
+  src: url('https://lipighor.com/webfont/Prayas.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Prayas.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKAtgram';
+  src: url('https://lipighor.com/webfont/Atgram.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Atgram.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SirajeeHumia';
+  src: url('https://lipighor.com/webfont/Humia.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Humia.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'UllashRRR';
+  src: url('https://lipighor.com/webfont/Ullash.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Ullash.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Koshtipathor';
+  src: url('https://lipighor.com/webfont/Koshtipathor.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Koshtipathor.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Subhashis';
+  src: url('https://lipighor.com/webfont/Subhashis.woff2?V=2.0?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Subhashis.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Agnibeena';
+  src: url('https://lipighor.com/webfont/Agnibeena.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/Agnibeena.woff?V=2.1') format('woff');
+}
+@font-face {
+  font-family: 'AlinurNiladri';
+  src: url('https://lipighor.com/webfont/AliNil.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AliNil.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKCharigram';
+  src: url('https://lipighor.com/webfont/Charigram.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Charigram.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlQuds';
+  src: url('https://lipighor.com/webfont/Quds.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Quds.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Oirabot';
+  src: url('https://lipighor.com/webfont/Oirabot.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Oirabot.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurNanggala402';
+  src: url('https://lipighor.com/webfont/Nanggala.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Nanggala.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBanalata';
+  src: url('https://lipighor.com/webfont/Banalata.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Banalata.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SirajeeMisbah';
+  src: url('https://lipighor.com/webfont/Misbah.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Misbah.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanAkibuki';
+  src: url('https://lipighor.com/webfont/Akibuki.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Akibuki.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurAnupom';
+  src: url('https://lipighor.com/webfont/Anupom.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Anupom.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Durnibar';
+  src: url('https://lipighor.com/webfont/Durnibar.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Durnibar.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MadanMohan';
+  src: url('https://lipighor.com/webfont/MadanMohan.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MadanMohan.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBihongo';
+  src: url('https://lipighor.com/webfont/Bihongo.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Bihongo.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'DharlaTNA';
+  src: url('https://lipighor.com/webfont/DharlaTNA.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/DharlaTNA.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SirajeeSylheti';
+  src: url('https://lipighor.com/webfont/SirajeeSylheti.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/SirajeeSylheti.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSpandan';
+  src: url('https://lipighor.com/webfont/AlinurSpandan.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSpandan.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSoukhin';
+  src: url('https://lipighor.com/webfont/AlinurSoukhin.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSoukhin.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurOishee';
+  src: url('https://lipighor.com/webfont/AlinurOishee.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurOishee.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurPriyoshi';
+  src: url('https://lipighor.com/webfont/AlinurPriyoshi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurPriyoshi.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Patabahar';
+  src: url('https://lipighor.com/webfont/Patabahar.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Patabahar.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'noirrit2';
+  src: url('fonts/newNoirritWeb.woff2?V=2.0') format('woff2'),
+        url('fonts/newNoirritWeb.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AdorNoirrit';
+  src: url('fonts/newNoirritWeb.woff2?V=2.0') format('woff2'),
+        url('fonts/newNoirritWeb.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Mastarmoshai';
+  src: url('https://lipighor.com/webfont/Mastarmoshai.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Mastarmoshai.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MustafaSa';
+  src: url('https://lipighor.com/webfont/MustafaSa.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MustafaSa.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanHera';
+  src: url('https://lipighor.com/webfont/Hera.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Hera.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKZakigonj';
+  src: url('https://lipighor.com/webfont/MAKZakigonj.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MAKZakigonj.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ManowarSaros';
+  src: url('https://lipighor.com/webfont/ManowarSaros.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ManowarSaros.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'GolestaBorno';
+  src: url('https://lipighor.com/webfont/GolestaBorno.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/GolestaBorno.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Kolikata';
+  src: url('https://lipighor.com/webfont/Kolikata.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Kolikata.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Insaaf';
+  src: url('https://lipighor.com/webfont/Insaaf.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Insaaf.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MuntahaSurjomukhi';
+  src: url('https://lipighor.com/webfont/MuntahaSurjomukhi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MuntahaSurjomukhi.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Opu';
+  src: url('https://lipighor.com/webfont/Opu.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Opu.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'RajdipSatyajit';
+  src: url('https://lipighor.com/webfont/RajdipSatyajit.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/RajdipSatyajit.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurPhulkuri';
+  src: url('https://lipighor.com/webfont/AlinurPhulkuri.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurPhulkuri.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKKajolsar';
+  src: url('https://lipighor.com/webfont/MAKKajolsar.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MAKKajolsar.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Sankalpa';
+  src: url('https://lipighor.com/webfont/Sankalpa.woff2?V=2.1') format('woff2'),
+        url('https://lipighor.com/webfont/Sankalpa.woff?V=2.1') format('woff');
+}
+@font-face {
+  font-family: 'MAKSylhet';
+  src: url('https://lipighor.com/webfont/MAKSylhet.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MAKSylhet.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Mayukh';
+  src: url('https://lipighor.com/webfont/Mayukh.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Mayukh.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Trinoyonee';
+  src: url('https://lipighor.com/webfont/Trinoyonee.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Trinoyonee.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Padanko';
+  src: url('https://lipighor.com/webfont/Padanko.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Padanko.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanProtivas';
+  src: url('https://lipighor.com/webfont/HasanProtivas.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HasanProtivas.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSaikat';
+  src: url('https://lipighor.com/webfont/AlinurSaikat.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSaikat.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HalderArgho';
+  src: url('https://lipighor.com/webfont/HalderArgho.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HalderArgho.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'IhtishamDeshlipi';
+  src: url('https://lipighor.com/webfont/IhtishamDeshlipi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/IhtishamDeshlipi.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurMadina';
+  src: url('https://lipighor.com/webfont/AlinurMadina.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurMadina.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKBangladesh';
+  src: url('https://lipighor.com/webfont/MAKBangladesh.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MAKBangladesh.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurTarunya';
+  src: url('https://lipighor.com/webfont/AlinurTarunya.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurTarunya.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HalderDipanwita';
+  src: url('https://lipighor.com/webfont/HalderDipanwita.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HalderDipanwita.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Alpona';
+  src: url('https://lipighor.com/webfont/Alpona.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Alpona.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurKatha';
+  src: url('https://lipighor.com/webfont/AlinurKatha.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurKatha.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Balaka';
+  src: url('https://lipighor.com/webfont/Balaka.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Balaka.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSubas';
+  src: url('https://lipighor.com/webfont/AlinurSubas.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSubas.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurRupnagar';
+  src: url('https://lipighor.com/webfont/AlinurRupnagar.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurRupnagar.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanMokhmoli';
+  src: url('https://lipighor.com/webfont/HasanMokhmoli.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HasanMokhmoli.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SwarnaliOkkhor';
+  src: url('https://lipighor.com/webfont/SwarnaliOkkhor.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/SwarnaliOkkhor.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKAhmodi';
+  src: url('https://lipighor.com/webfont/MAKAhmodi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MAKAhmodi.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'UtsabBangla';
+  src: url('https://lipighor.com/webfont/UtsabBangla.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/UtsabBangla.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurDeyalika';
+  src: url('https://lipighor.com/webfont/AlinurDeyalika.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurDeyalika.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurKathakali';
+  src: url('https://lipighor.com/webfont/AlinurKathakali.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurKathakali.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanJolchobi';
+  src: url('https://lipighor.com/webfont/HasanJolchobi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HasanJolchobi.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MAKAkhlima';
+  src: url('https://lipighor.com/webfont/MAKAkhlima.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MAKAkhlima.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'SRFChuadanga';
+  src: url('https://lipighor.com/webfont/SRFChuadanga.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/SRFChuadanga.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBashundhara';
+  src: url('https://lipighor.com/webfont/AlinurBashundhara.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurBashundhara.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Sananda';
+  src: url('https://lipighor.com/webfont/Sananda.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Sananda.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurHastasaili';
+  src: url('https://lipighor.com/webfont/AlinurHastasaili.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurHastasaili.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Bhasa52';
+  src: url('https://lipighor.com/webfont/Bhasa52.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Bhasa52.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AdorTrikonomiti';
+  src: url('https://lipighor.com/webfont/AdorTrikonomiti.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AdorTrikonomiti.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Padmarag';
+  src: url('https://lipighor.com/webfont/Padmarag.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Padmarag.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Himaloy';
+  src: url('https://lipighor.com/webfont/Himaloy.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Himaloy.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Shadhinata';
+  src: url('https://lipighor.com/webfont/Shadhinata.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Shadhinata.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBoisakh';
+  src: url('https://lipighor.com/webfont/AlinurBoisakh.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurBoisakh.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AdorNoirritVR';
+  src: url('https://lipighor.com/webfont/LiAdorNoirritVR.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/LiAdorNoirritVR.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'HasanIccheghuri';
+  src: url('https://lipighor.com/webfont/HasanIccheghuri.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/HasanIccheghuri.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurIchamati';
+  src: url('https://lipighor.com/webfont/AlinurIchamati.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurIchamati.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurAbakas';
+  src: url('https://lipighor.com/webfont/AlinurAbakas.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurAbakas.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ParadoxicalSajid';
+  src: url('https://lipighor.com/webfont/ParadoxicalSajid.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ParadoxicalSajid.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'LiakatTawhid';
+  src: url('https://lipighor.com/webfont/LiakatTawhid.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/LiakatTawhid.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurShowpnocari';
+  src: url('https://lipighor.com/webfont/AlinurShowpnocariVR.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurShowpnocariVR.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'PriyashaBharot';
+  src: url('https://lipighor.com/webfont/PriyashaBharot.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/PriyashaBharot.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'ManowarFinge';
+  src: url('https://lipighor.com/webfont/ManowarFinge.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/ManowarFinge.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurProjapoti';
+  src: url('https://lipighor.com/webfont/AlinurProjapoti.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurProjapoti.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'MainakBuniyadi';
+  src: url('https://lipighor.com/webfont/MainakBuniyadi.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/MainakBuniyadi.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurDristanto';
+  src: url('https://lipighor.com/webfont/AlinurDristanto.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurDristanto.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'Padmasetu';
+  src: url('https://lipighor.com/webfont/Padmasetu.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Padmasetu.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'LiakatTanjina';
+  src: url('https://lipighor.com/webfont/LiakatTanjina.woff2?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/LiakatTanjina.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurKurigram';
+  src: url('https://lipighor.com/webfont/AlinurKurigram.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurKurigram.woff') format('woff');
+}
+@font-face {
+  font-family: 'Matribhumi';
+  src: url('https://lipighor.com/webfont/Matribhumi.woff2?New') format('woff2'),
+        url('https://lipighor.com/webfont/Matribhumi.woff?New') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBornoBikash';
+  src: url('https://lipighor.com/webfont/AlinurBornoBikash.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurBornoBikash.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurProttoyoee';
+  src: url('https://lipighor.com/webfont/AlinurProttoyoee.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurProttoyoee.woff') format('woff');
+}
+@font-face {
+  font-family: 'ByomgraphyKoushali';
+  src: url('https://lipighor.com/webfont/ByomgraphyKoushali.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ByomgraphyKoushali.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurAdor';
+  src: url('https://lipighor.com/webfont/AlinurAdor.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurAdor.woff') format('woff');
+}
+@font-face {
+  font-family: 'Tousumi';
+  src: url('https://lipighor.com/webfont/Tousumi.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Tousumi.woff') format('woff');
+}
+@font-face {
+  font-family: 'NahidaBornomala';
+  src: url('https://lipighor.com/webfont/NahidaBornomala.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/NahidaBornomala.woff') format('woff');
+}
+@font-face {
+  font-family: 'FazlayMunnisha';
+  src: url('https://lipighor.com/webfont/FazlayMunnisha.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/FazlayMunnisha.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurShowpnopuri';
+  src: url('https://lipighor.com/webfont/AlinurShowpnopuri.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurShowpnopuri.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSnigdha';
+  src: url('https://lipighor.com/webfont/AlinurSnigdha.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSnigdha.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSirat';
+  src: url('https://lipighor.com/webfont/AlinurSirat.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSirat.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurImarat';
+  src: url('https://lipighor.com/webfont/AlinurImarat.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurImarat.woff') format('woff');
+}
+@font-face {
+  font-family: 'ManowarMurshidabad';
+  src: url('https://lipighor.com/webfont/ManowarMurshidabad.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ManowarMurshidabad.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurAtithi';
+  src: url('https://lipighor.com/webfont/AlinurAtithi.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurAtithi.woff') format('woff');
+}
+@font-face {
+  font-family: 'Suparna';
+  src: url('https://lipighor.com/webfont/Suparna.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Suparna.woff') format('woff');
+}
+@font-face {
+  font-family: 'HalderSourik';
+  src: url('https://lipighor.com/webfont/HalderSourik.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/HalderSourik.woff') format('woff');
+}
+@font-face {
+  font-family: 'Durbinito';
+  src: url('https://lipighor.com/webfont/Durbinito.woff2?V=2.0?V=2.0') format('woff2'),
+        url('https://lipighor.com/webfont/Durbinito.woff?V=2.0') format('woff');
+}
+@font-face {
+  font-family: 'AlinurRangpur';
+  src: url('https://lipighor.com/webfont/AlinurRangpur.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurRangpur.woff') format('woff');
+}
+@font-face {
+  font-family: 'SKBishal';
+  src: url('https://lipighor.com/webfont/SKBishal.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/SKBishal.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSmaroklipi';
+  src: url('https://lipighor.com/webfont/AlinurSmaroklipi.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSmaroklipi.woff') format('woff');
+}
+@font-face {
+  font-family: 'SirajeeSanjar';
+  src: url('https://lipighor.com/webfont/SirajeeSanjar.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/SirajeeSanjar.woff') format('woff');
+}
+@font-face {
+  font-family: 'ManowarNihar';
+  src: url('https://lipighor.com/webfont/ManowarNihar.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ManowarNihar.woff') format('woff');
+}
+@font-face {
+  font-family: 'MahfuzHimadri';
+  src: url('https://lipighor.com/webfont/MahfuzHimadri.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/MahfuzHimadri.woff') format('woff');
+}
+@font-face {
+  font-family: 'SabbirAshalota';
+  src: url('https://lipighor.com/webfont/SabbirAshalota.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/SabbirAshalota.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurTumatul';
+  src: url('https://lipighor.com/webfont/AlinurTumatul.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurTumatul.woff') format('woff');
+}
+@font-face {
+  font-family: 'SweetShreyam';
+  src: url('https://lipighor.com/webfont/SweetShreyam.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/SweetShreyam.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AlinurAdarshalipiDemo';
+  src: url('https://lipighor.com/webfont/AlinurAdarshalipi.woff2?VerDemo') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurAdarshalipi.woff?VerDemo') format('woff');
+}
+
+@font-face {
+  font-family: 'KobitaDemo';
+  src: url('https://lipighor.com/webfont/KobitaDemo.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/KobitaDemo.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurRuposhi';
+  src: url('https://lipighor.com/webfont/AlinurRuposhi.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurRuposhi.woff') format('woff');
+}
+@font-face {
+  font-family: 'EidMubarakDemo';
+  src: url('https://lipighor.com/webfont/EidMubarakDemo.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/EidMubarakDemo.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurSangbadpatra';
+  src: url('https://lipighor.com/webfont/AlinurSangbadpatra.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurSangbadpatra.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurTatsama';
+  src: url('https://lipighor.com/webfont/AlinurTatsama.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurTatsama.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurProhor';
+  src: url('https://lipighor.com/webfont/AlinurProhor.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurProhor.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBanglaborno';
+  src: url('https://lipighor.com/webfont/AlinurBanglaborno.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurBanglaborno.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurAkorshon';
+  src: url('https://lipighor.com/webfont/AlinurAkorshon.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurAkorshon.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBahubrihi';
+  src: url('https://lipighor.com/webfont/AlinurBahubrihi.woff2?Updated') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurBahubrihi.woff?Updated') format('woff');
+}
+@font-face {
+  font-family: 'AlinurKuyasha';
+  src: url('https://lipighor.com/webfont/AlinurKuyasha.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurKuyasha.woff') format('woff');
+}
+@font-face {
+  font-family: 'HalderChinmoyee';
+  src: url('https://lipighor.com/webfont/HalderChinmoyee.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/HalderChinmoyee.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurUllas';
+  src: url('https://lipighor.com/webfont/AlinurUllas.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurUllas.woff') format('woff');
+}
+@font-face {
+  font-family: 'SweetRupam';
+  src: url('https://lipighor.com/webfont/SweetRupam.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/SweetRupam.woff') format('woff');
+}
+@font-face {
+  font-family: 'Matribhumi2';
+  src: url('https://lipighor.com/webfont/Matribhumi2.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Matribhumi2.woff') format('woff');
+}
+@font-face {
+  font-family: 'Matribhumi3';
+  src: url('https://lipighor.com/webfont/Matribhumi3.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Matribhumi3.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurShishir';
+  src: url('https://lipighor.com/webfont/AlinurShishir.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Matribhumi3.woff') format('woff');
+}
+@font-face {
+  font-family: 'BadhonDinlipi';
+  src: url('https://lipighor.com/webfont/BadhonDinlipi.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/BadhonDinlipi.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurNakkhatra';
+  src: url('https://lipighor.com/webfont/AlinurNakkhatra.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurNakkhatra.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurBinoy';
+  src: url('https://lipighor.com/webfont/AlinurBinoy.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurBinoy.woff') format('woff');
+}
+@font-face {
+  font-family: 'ChayanaTeesta';
+  src: url('https://lipighor.com/webfont/ChayanaTeesta.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ChayanaTeesta.woff') format('woff');
+}
+@font-face {
+  font-family: 'ShohidAbuSayed';
+  src: url('https://lipighor.com/webfont/ShohidAbuSayed.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ShohidAbuSayed.woff') format('woff');
+}
+@font-face {
+  font-family: 'AbuJMAkkas';
+  src: url('https://lipighor.com/webfont/AbuJMAkkas.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AbuJMAkkas.woff') format('woff');
+}
+@font-face {
+  font-family: 'Aparajita';
+  src: url('https://lipighor.com/webfont/Aparajita.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Aparajita.woff') format('woff');
+}
+@font-face {
+  font-family: 'TilattamarHak';
+  src: url('https://lipighor.com/webfont/TilattamarHak.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ATilattamarHak.woff') format('woff');
+}
+@font-face {
+  font-family: 'AbhayaTilottama';
+  src: url('https://lipighor.com/webfont/AbhayaTilottama.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AbhayaTilottama.woff') format('woff');
+}
+@font-face {
+  font-family: 'Shadhinata2';
+  src: url('https://lipighor.com/webfont/Shadhinata2.woff2?Updated') format('woff2'),
+        url('https://lipighor.com/webfont/Shadhinata2.woff?Updated') format('woff');
+}
+@font-face {
+  font-family: 'ShohidShafkatSamir';
+  src: url('https://lipighor.com/webfont/ShohidShafkatSamir.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/ShohidShafkatSamir.woff') format('woff');
+}
+@font-face {
+  font-family: 'ShohidTahirZamanPriyo';
+  src: url('https://lipighor.com/webfont/TahirZamanFx.woff2?New') format('woff2'),
+        url('https://lipighor.com/webfont/TahirZamanFx.woff?New') format('woff');
+}
+@font-face {
+  font-family: 'Abhayashakti';
+  src: url('https://lipighor.com/webfont/Abhayashakti.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/Abhayashakti.woff') format('woff');
+}
+@font-face {
+  font-family: 'ShohidTahmidTamin';
+  src: url('https://lipighor.com/webfont/LiShohidTahmidTamin.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/LiShohidTahmidTamin.woff') format('woff');
+}
+@font-face {
+  font-family: 'HasanProtilipi';
+  src: url('https://lipighor.com/webfont/HasanProtilipi.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/HasanProtilipi.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurNobin';
+  src: url('https://lipighor.com/webfont/AlinurNobin.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/AlinurNobin.woff') format('woff');
+}
+@font-face {
+  font-family: 'MehdiEkushey';
+  src: url('https://lipighor.com/webfont/MehdiEkushey.woff2') format('woff2'),
+        url('https://lipighor.com/webfont/MehdiEkushey.woff') format('woff');
+}
+@font-face {
+  font-family: 'MAHai';
+  src: url('fonts/MAHai.woff2') format('woff2'),
+        url('fonts/MAHai.woff') format('woff');
+}
+@font-face {
+  font-family: 'AlinurMayaboti';
+  src: url('fonts/AlinurMayaboti.woff2') format('woff2'),
+        url('fonts/AlinurMayaboti.woff') format('woff');
+}
+@font-face {
+  font-family: 'ChhatrishJuly';
+  src: url('fonts/ChhatrishJuly.woff2') format('woff2'),
+        url('fonts/ChhatrishJuly.woff') format('woff');
+}
+@font-face {
+  font-family: 'JashirAbhyuday';
+  src: url('fonts/JashirAbhyuday.woff2?New') format('woff2'),
+        url('fonts/JashirAbhyuday.woff?New') format('woff');
+}
+@font-face {
+  font-family: 'KaiumSimanto';
+  src: url('fonts/KaiumSimanto.woff2?New') format('woff2'),
+        url('fonts/KaiumSimanto.woff?New') format('woff');
+}
+@font-face {
+  font-family: 'SweetArkopravo';
+  src: url('fonts/SweetArkopravo.woff2?New') format('woff2'),
+        url('fonts/SweetArkopravo.woff?New') format('woff');
+}
+@font-face {
+  font-family: 'Shadhinata220';
+  src: url('fonts/Shadhinata220.woff2') format('woff2'),
+        url('fonts/Shadhinata220.woff') format('woff');
+}
+@font-face {
+  font-family: 'PurnoPran';
+  src: url('fonts/PurnoPranN.woff2') format('woff2'),
+        url('fonts/PurnoPranN.woff') format('woff');
+}
+@font-face {
+  font-family: 'SabbirSorolota';
+  src: url('fonts/SabbirSorolota.woff2') format('woff2'),
+        url('fonts/SabbirSorolota.woff') format('woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
